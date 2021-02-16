@@ -1,0 +1,102 @@
+body {
+  max-width: 800px;
+  margin: 100px auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #d3cce3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+button {
+  cursor: pointer;
+}
+span {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar h1 {
+  font-size: 48px;
+  text-align: center;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #eba7a7;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.navbar a:hover {
+  background-color: #eb7373;
+}
+.form {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.form input {
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+.form textarea {
+  border: none;
+  border-radius: 5px;
+}
+.form button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #eba7a7;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.checkBox {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkBox a {
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  background-color: #eba7a7;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.form button:hover {
+  background-color: #eb7373;
+}
+.deleteBtn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #eba7a7;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.contentArea {
+  max-width: 800px;
+}
+.btnArea {
+  display: flex;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
