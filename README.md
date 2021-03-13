@@ -3,7 +3,9 @@
 作品網址：https://blogslist.herokuapp.com/
 
 ## 說明：
-後端自己用Node.js 框架 Express 開RESTful API串接，Postman做確認api是否成功。
+後端自己用Node.js 框架 Express 開RESTful API串接<br>
+資料庫使用PostgreSQL<br>
+Postman做確認api是否成功。<br>
 前端用Create-React-App 環境架設。
 
 
